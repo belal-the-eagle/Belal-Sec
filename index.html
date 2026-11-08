@@ -111,43 +111,7 @@
 
         .btn-link.yt:hover { border-color: var(--secondary); box-shadow: 0 0 12px rgba(255, 42, 42, 0.3); }
         .btn-link.wa:hover { border-color: #25d366; box-shadow: 0 0 12px rgba(37, 211, 102, 0.3); }
-
-        .courses-grid {
-            display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
-            gap: 1.2rem;
-            margin-bottom: 3rem;
-        }
-
-        .course-card {
-            background: var(--card-bg);
-            border: 1px solid var(--border);
-            border-radius: 8px;
-            padding: 1.2rem;
-            position: relative;
-            overflow: hidden;
-        }
-
-        .badge {
-            position: absolute;
-            top: 12px;
-            left: 12px;
-            background: var(--secondary);
-            color: #fff;
-            font-size: 0.7rem;
-            padding: 2px 8px;
-            border-radius: 4px;
-            font-weight: bold;
-            text-transform: uppercase;
-            letter-spacing: 0.5px;
-        }
-
-        .course-card h3 {
-            font-size: 1.1rem;
-            margin-top: 0.5rem;
-            margin-bottom: 0.5rem;
-            color: #fff;
-        }
+        .btn-link.academy:hover { border-color: var(--primary); box-shadow: 0 0 15px rgba(0, 255, 102, 0.4); }
 
         .video-container {
             display: grid;
@@ -197,8 +161,11 @@
 
     <div class="container">
 
-        <h2 class="section-title"><i class="fas fa-network-wired"></i> الروابط الرسمية</h2>
+        <h2 class="section-title"><i class="fas fa-network-wired"></i> الروابط الرسمية المنصة</h2>
         <div class="links-grid">
+            <a href="https://belal-the-eagle.github.io/academy/" target="_blank" class="btn-link academy">
+                <i class="fas fa-graduation-cap" style="color: var(--primary); font-size: 1.2rem;"></i> منصة الكورسات (Academy)
+            </a>
             <a href="https://youtube.com/@belalnada-y1g?si=osQZovENEtKkoSLg" target="_blank" class="btn-link yt">
                 <i class="fab fa-youtube" style="color: #ff2a2a; font-size: 1.2rem;"></i> قناة اليوتيوب
             </a>
@@ -208,30 +175,6 @@
             <a href="https://wa.me/201062808277" target="_blank" class="btn-link wa">
                 <i class="fab fa-whatsapp" style="color: #25d366; font-size: 1.2rem;"></i> التواصل عبر WhatsApp
             </a>
-        </div>
-
-        <h2 class="section-title"><i class="fas fa-laptop-code"></i> الكورسات القادمة</h2>
-        <div class="courses-grid">
-            <div class="course-card">
-                <span class="badge">Coming Soon</span>
-                <i class="fab fa-linux" style="font-size: 2rem; color: var(--primary); margin-bottom: 0.5rem;"></i>
-                <h3>Kali Linux Fundamentals</h3>
-            </div>
-            <div class="course-card">
-                <span class="badge">Coming Soon</span>
-                <i class="fas fa-wifi" style="font-size: 2rem; color: var(--primary); margin-bottom: 0.5rem;"></i>
-                <h3>WiFi Hacking</h3>
-            </div>
-            <div class="course-card">
-                <span class="badge">Coming Soon</span>
-                <i class="fas fa-sitemap" style="font-size: 2rem; color: var(--primary); margin-bottom: 0.5rem;"></i>
-                <h3>Network Basics</h3>
-            </div>
-            <div class="course-card">
-                <span class="badge">Coming Soon</span>
-                <i class="fab fa-python" style="font-size: 2rem; color: var(--primary); margin-bottom: 0.5rem;"></i>
-                <h3>Python Basics</h3>
-            </div>
         </div>
 
         <h2 class="section-title"><i class="fas fa-video"></i> أحدث الفيديوهات</h2>
